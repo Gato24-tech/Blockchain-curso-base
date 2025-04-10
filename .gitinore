@@ -21,3 +21,7 @@ Thumbs.db
 
 # Opcional si usas VSCode
 .vscode/
+
+*.tsbuildinfo
+coverage/
+
