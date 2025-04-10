@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+.env
+
+# Compilados
+artifacts/
+cache/
+deployments/
+
+# Hardhat local node data
+tmp/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Backups o pruebas
+*.bak
+*.log
+*.tmp
+
+# Opcional si usas VSCode
+.vscode/
