@@ -1,4 +1,6 @@
 # 🚀 Plantilla Base para Proyectos del Curso de Blockchain
+“Repositorio base con configuración lista para usar con Hardhat, Solidity y pruebas locales o en red testnet.”
+
 
 Este repositorio sirve como punto de partida para cualquier proyecto del curso. Aquí se documenta la configuración estándar, herramientas y progresos.
 
@@ -26,4 +28,13 @@ Este repositorio sirve como punto de partida para cualquier proyecto del curso. 
 ---
 
 ## 📁 Estructura de carpetas recomendada
+.
+├── contracts/             # Contratos .sol
+├── scripts/               # Scripts de deploy e interacción
+├── test/                  # Tests con Hardhat/Chai
+├── deployments/           # Dirección del contrato desplegado (JSON)
+├── .env                   # Variables sensibles (IGNORADO)
+├── hardhat.config.cjs     # Configuración principal
+├── README.md              # Este archivo
+
 
